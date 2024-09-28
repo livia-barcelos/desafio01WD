@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Estacionamento</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Controle de Estacionamento</h1>
+
+    <div id="cadastro">
+        <h2>Cadastro de Reserva</h2>
+        <form id="form-cadastro">
+            <input type="text" id="placa" placeholder="Placa do veículo" required>
+            <input type="text" id="proprietario" placeholder="Nome do proprietário" required>
+            <input type="text" id="numero-apartamento" placeholder="Número do apartamento" required>
+            <input type="text" id="bloco" placeholder="Bloco do apartamento" required>
+            <input type="text" id="modelo" placeholder="Modelo do veículo" required>
+            <input type="text" id="cor" placeholder="Cor do veículo" required>
+            <input type="text" id="numero-vaga" placeholder="Número da vaga" required>
+            <button type="submit">Salvar</button>
+        </form>
+        <div id="mensagem"></div>
+    </div>
+
+    <div id="listagem">
+        <h2>Vagas Cadastradas</h2>
+        <ul id="lista-vagas"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
 
